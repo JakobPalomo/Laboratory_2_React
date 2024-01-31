@@ -16,20 +16,20 @@ function Navigation() {
             <a href="#">Watch</a>
             <a href="#">Airpods</a>
             <a href="#">TV & Home</a>
-            {/* <a href="#">Entertainment</a>
+            <a href="#">Entertainment</a>
             <a href="#">Accessories</a>
-            <a href="#">Support</a> */}{" "}
+            <a href="#">Support</a>
             <span>
               <img
                 id="search"
-                src=".\images\AppleLogo.png"
+                src=".\images\search.jpg"
                 alt="search"
                 className="smol"
-              />{" "}
+              />
               <span>
                 <img
                   id="lock"
-                  src=".\images\AppleLogo.png"
+                  src=".\images\cart.jpg"
                   alt="lock"
                   className="smol"
                 />
