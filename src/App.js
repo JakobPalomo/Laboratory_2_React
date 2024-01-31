@@ -7,6 +7,9 @@ import Showcase from "./Showcase";
 import "./general.css";
 import Item from "./Item";
 import MiniCard from "./MiniCard";
+import LargeShow from "./LargeShow";
+import QuickLink from "./QuickLink";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -20,6 +23,10 @@ function App() {
       <Item />
       <Subhead />
       <MiniCard />
+      <Subhead />
+      <LargeShow />
+      <QuickLink />
+      <Footer />
     </div>
   );
 }

@@ -5,36 +5,38 @@ function Navigation() {
     <div>
       <header>
         <div class="container">
-          <span>
-            <img className="smol" src=".\images\AppleLogo.png" alt="search" />
-          </span>
           <nav>
+            <span>
+              <img className="smol" src=".\images\apple.png" alt="search" />
+            </span>
+            <a href="#">Store</a>
             <a href="#">Mac</a>
             <a href="#">iPad</a>
             <a href="#">iPhone</a>
             <a href="#">Watch</a>
-            <a href="#">TV</a>
-            <a href="#">Music</a>
-            <a href="#">Support</a>
-          </nav>
-          <div class="right">
+            <a href="#">Airpods</a>
+            <a href="#">TV & Home</a>
+            {/* <a href="#">Entertainment</a>
+            <a href="#">Accessories</a>
+            <a href="#">Support</a> */}{" "}
             <span>
               <img
                 id="search"
                 src=".\images\AppleLogo.png"
                 alt="search"
                 className="smol"
-              />
+              />{" "}
+              <span>
+                <img
+                  id="lock"
+                  src=".\images\AppleLogo.png"
+                  alt="lock"
+                  className="smol"
+                />
+              </span>
             </span>
-            <span>
-              <img
-                id="lock"
-                src=".\images\AppleLogo.png"
-                alt="lock"
-                className="smol"
-              />
-            </span>
-          </div>
+          </nav>
+          <div class="right"></div>
         </div>
       </header>
       <script src="https://use.fontawesome.com/c118aa5ce8.js"></script>
