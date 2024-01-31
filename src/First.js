@@ -4,11 +4,11 @@ const First = [
     img: "./images/mac.jpg",
   },
   {
-    name: "Iphone",
+    name: "iPhone",
     img: "./images/iphones.jpg",
   },
   {
-    name: "Ipad",
+    name: "iPad",
     img: "./images/ipad.jpg",
   },
   {

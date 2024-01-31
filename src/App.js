@@ -17,6 +17,9 @@ import Fourth from "./Fourth.js";
 import Fifth from "./Fifth.js";
 import Six from "./Six.js";
 import Seven from "./Seven.js";
+import Eight from "./Eight.js";
+import Nine from "./Nine.js";
+import Ten from "./Ten.js";
 
 function App() {
   return (
@@ -33,13 +36,21 @@ function App() {
         ))}
       </div>
 
-      <Subhead />
+      <Subhead
+        word="The latest."
+        title="Take a look at what’s new, right now."
+        color="black"
+      />
       <div className="layout">
         {Second.map((second) => (
           <Showcase SecObj={second} />
         ))}
       </div>
-      <Subhead />
+      <Subhead
+        word="Accessories."
+        title="Get the perfect gift for the person who gets you."
+        color="red"
+      />
       <div className="layout">
         {Third.map((third) => (
           <Showcase SecObj={third} />
@@ -49,13 +60,21 @@ function App() {
           <Item forObj={fourth} />
         ))}
       </div>
-      <Subhead />
+      <Subhead
+        word="The Apple Store difference."
+        title="Even more reasons to shop with us."
+        color="black"
+      />
       <div className="layout">
         {Fifth.map((third) => (
           <MiniCard SecObj={third} />
         ))}
       </div>
-      <Subhead />
+      <Subhead
+        word="Loud and clear. "
+        title="Unparalleled choices for rich, high-quality sound."
+        color="black"
+      />
       <div className="layout">
         {Six.map((third) => (
           <Showcase SecObj={third} />
@@ -65,10 +84,36 @@ function App() {
           <Item forObj={fourth} />
         ))}
       </div>
-      <Subhead />
-      <LargeShow />
-      <Subhead />
-      <LargeShow />
+      <Subhead
+        word="Help is here. "
+        title="Whenever and however you need it."
+        color="black"
+      />
+      <div className="layout">
+        {Eight.map((third) => (
+          <LargeShow SecObj={third} />
+        ))}
+      </div>
+      <Subhead
+        word="The Apple experience. "
+        title="Do even more with Apple products and services."
+        color="black"
+      />
+      <div className="layout">
+        {Nine.map((third) => (
+          <LargeShow SecObj={third} />
+        ))}
+      </div>
+      <Subhead
+        word="Special stores."
+        title="Exclusive savings for students, educators and businesses."
+        color="black"
+      />
+      <div className="layout">
+        {Ten.map((third) => (
+          <Showcase SecObj={third} />
+        ))}
+      </div>
       <QuickLink />
       <Footer />
     </div>

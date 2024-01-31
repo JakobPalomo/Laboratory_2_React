@@ -2,13 +2,17 @@ const Second = [
   {
     product: "Iphone 15 Pro",
     desc: "Titanium",
-    price: "Starts at P79990",
+    color: "white",
+    bg: "#0d0d0d",
+    price: "From ₱79990",
     image2: "./images/iphone.png",
   },
   {
     product: "Apple Watch Series 9",
     desc: "Smarter. Brighter. Mightier",
-    price: "Starts at P26490",
+    price: "From ₱26490",
+    color: "white",
+    bg: "#0d0d0d",
     image2: "./images/Watchshow.png",
   },
   {

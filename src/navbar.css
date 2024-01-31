@@ -17,6 +17,7 @@ header {
 }
 
 nav {
+  white-space: nowrap;
 }
 nav a {
   text-decoration: none;

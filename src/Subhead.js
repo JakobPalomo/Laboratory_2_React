@@ -1,5 +1,5 @@
 import "./general.css";
-function Subhead() {
+function Subhead(props) {
   return (
     <div style={{ display: "flex", flexDirection: "row" }}>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -10,8 +10,8 @@ function Subhead() {
       />
       <div className="title2">
         <h2>
-          <strong style={{ color: "black" }}>Store.</strong> The best way to buy
-          the products you love.
+          <strong style={{ color: props.color }}>{props.word}</strong>{" "}
+          {props.title}
         </h2>
       </div>
     </div>

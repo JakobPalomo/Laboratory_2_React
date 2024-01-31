@@ -20,7 +20,7 @@ function MainHeader() {
         </div>
         <div style={{ marginLeft: 24 }}>
           <p style={{ fontSize: 12 }}>Need Shopping Help?</p>
-          <p style={{ fontSize: 12 }}>Ask a Specialist</p>
+          <p style={{ fontSize: 12, color: "blue" }}>Ask a Specialist</p>
         </div>
       </div>
     </div>

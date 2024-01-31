@@ -2,7 +2,10 @@ import "./general.css";
 
 function Showcase(props) {
   return (
-    <div className="display-show2">
+    <div
+      className="display-show2 "
+      style={{ backgroundColor: props.SecObj.bg, color: props.SecObj.color }}
+    >
       <div className="display-image2">
         <div style={{ marginBottom: 18 }}>
           <p className="details" style={{ fontSize: 12, marginBottom: -18 }}>
