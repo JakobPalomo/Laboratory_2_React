@@ -1,0 +1,19 @@
+.title {
+  margin: 4%;
+  margin-left: 8%;
+
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.title h1 {
+  font-size: 52px;
+  font-family: "Roboto", sans-serif;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  margin: 8%;
+}
