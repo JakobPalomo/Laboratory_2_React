@@ -1,12 +1,12 @@
 import "./general.css";
-function DisplayDevice() {
+function DisplayDevice(props) {
   return (
     <div className="display">
       <div className="display-image">
         <div className="disp-contain">
-          <img src="./images/mac.jpg" alt="effe" className="disp" />
+          <img src={props.FirstObj.img} alt="effe" className="disp" />
         </div>{" "}
-        <p>Mac</p>
+        <p>{props.FirstObj.name}</p>
       </div>
     </div>
   );

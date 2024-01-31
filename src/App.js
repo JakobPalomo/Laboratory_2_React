@@ -10,13 +10,19 @@ import MiniCard from "./MiniCard";
 import LargeShow from "./LargeShow";
 import QuickLink from "./QuickLink";
 import Footer from "./Footer";
+import First from "./First.js";
 
 function App() {
   return (
     <div>
       <Navigation />
       <MainHeader />
-      <DisplayDevice />
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        {First.map((first) => (
+          <DisplayDevice FirstObj={first} />
+        ))}
+      </div>
+
       <Subhead />
       <Showcase />
       <Subhead />

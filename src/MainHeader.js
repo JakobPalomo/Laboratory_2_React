@@ -13,6 +13,15 @@ function MainHeader() {
           <strong>Store.</strong> The best way to buy the products you love.
         </h1>
       </div>
+      <div className="helper">
+        <div>
+          <img src="./images/pfp.jpg" alt="rr" className="pfp" />
+        </div>
+        <div style={{ marginLeft: 24 }}>
+          <p style={{ fontSize: 12 }}>Need Shopping Help?</p>
+          <p style={{ fontSize: 12 }}>Ask a Specialist</p>
+        </div>
+      </div>
     </div>
   );
 }
