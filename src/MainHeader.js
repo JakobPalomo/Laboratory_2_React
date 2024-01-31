@@ -10,7 +10,8 @@ function MainHeader() {
       />
       <div className="title">
         <h1>
-          <strong>Store.</strong> The best way to buy the products you love.
+          <strong style={{ color: "black" }}>Store.</strong> The best way to buy
+          the products you love.
         </h1>
       </div>
       <div className="helper">

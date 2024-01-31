@@ -10,7 +10,8 @@ function Subhead() {
       />
       <div className="title2">
         <h2>
-          <strong>Store.</strong> The best way to buy the products you love.
+          <strong style={{ color: "black" }}>Store.</strong> The best way to buy
+          the products you love.
         </h2>
       </div>
     </div>
