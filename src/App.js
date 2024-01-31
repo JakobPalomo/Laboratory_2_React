@@ -11,6 +11,7 @@ import LargeShow from "./LargeShow";
 import QuickLink from "./QuickLink";
 import Footer from "./Footer";
 import First from "./First.js";
+import Second from "./Second.js";
 
 function App() {
   return (
@@ -24,7 +25,11 @@ function App() {
       </div>
 
       <Subhead />
-      <Showcase />
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        {Second.map((second) => (
+          <Showcase SecObj={second} />
+        ))}
+      </div>
       <Subhead />
       <Item />
       <Subhead />

@@ -1,15 +1,20 @@
 import "./general.css";
-function Showcase() {
+
+function Showcase(props) {
   return (
     <div className="display-show2">
       <div className="display-image2">
         <div style={{ marginBottom: 18 }}>
-          <p className="details">Iphone 15 Pro max</p>
-          <p className="details">Titanium</p>
-          <p className="details">From ₱70,990</p>
+          <p className="details" style={{ fontSize: 12, marginBottom: -18 }}>
+            {props.SecObj.product}
+          </p>
+          <p className="details" style={{ fontSize: 26 }}>
+            {props.SecObj.desc}
+          </p>
+          <p className="details">{props.SecObj.price}</p>
         </div>
         <div className="disp-contain">
-          <img src="./images/iphone.png" alt="effe" className="show" />
+          <img src={props.SecObj.image2} alt="effe" className="show" />
         </div>{" "}
       </div>
     </div>

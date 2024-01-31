@@ -36,4 +36,5 @@ const First = [
     img: "./images/giftcard.jpg",
   },
 ];
+
 export default First;
