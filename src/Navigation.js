@@ -5,7 +5,9 @@ function Navigation() {
     <div>
       <header>
         <div class="container">
-          <i id="logo" class="fa fa-apple" aria-hidden="true"></i>
+          <span>
+            <img className="smol" src=".\images\AppleLogo.png" alt="search" />
+          </span>
           <nav>
             <a href="#">Mac</a>
             <a href="#">iPad</a>
@@ -19,15 +21,17 @@ function Navigation() {
             <span>
               <img
                 id="search"
-                src="http://mateen.kurdzman.net/search.png"
+                src=".\images\AppleLogo.png"
                 alt="search"
+                className="smol"
               />
             </span>
             <span>
               <img
                 id="lock"
-                src="http://mateen.kurdzman.net/padlock.png"
+                src=".\images\AppleLogo.png"
                 alt="lock"
+                className="smol"
               />
             </span>
           </div>
