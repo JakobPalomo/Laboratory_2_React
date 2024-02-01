@@ -1,11 +1,12 @@
+import React from "react";
 import "./navbar.css";
 
 function Navigation() {
   return (
     <div>
       <header>
-        <div class="container">
-          <nav>
+        <div className="container">
+          <nav className="navbar">
             <span>
               <img className="smol" src=".\images\apple.png" alt="search" />
             </span>
@@ -22,25 +23,23 @@ function Navigation() {
             <span>
               <img
                 id="search"
-                src=".\images\AppleLogo.png"
+                src=".\images\search.jpg"
                 alt="search"
                 className="smol"
               />
               <span>
                 <img
                   id="lock"
-                  src=".\images\AppleLogo.png"
+                  src=".\images\cart.jpg"
                   alt="lock"
                   className="smol"
                 />
               </span>
             </span>
           </nav>
-          <div class="right"></div>
         </div>
       </header>
-      <script src="https://use.fontawesome.com/c118aa5ce8.js"></script>
-      <div class="banner"></div>
+      <div className="hidden-container">Coming Soon</div>
     </div>
   );
 }

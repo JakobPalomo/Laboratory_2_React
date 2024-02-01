@@ -16,7 +16,15 @@ function Showcase(props) {
           </p>
           <p className="details">{props.SecObj.price}</p>
         </div>
-        <div className="disp-contain">
+        <div
+          className="disp-contain"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+            marginTop: "28px",
+          }}
+        >
           <img src={props.SecObj.image2} alt="effe" className="show" />
         </div>{" "}
       </div>
