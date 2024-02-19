@@ -1,5 +1,8 @@
 import "./general.css";
 function MainHeader() {
+  const now = new Date();
+  const currentHour = now.getHours();
+
   return (
     <div style={{ display: "flex", flexDirection: "row" }}>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,10 +12,17 @@ function MainHeader() {
         rel="stylesheet"
       />
       <div className="title">
-        <h1>
-          <strong style={{ color: "black" }}>Store.</strong> The best way to buy
-          the products you love.
-        </h1>
+        {currentHour >= 7 && currentHour < 21 ? (
+          <h1>
+            <strong style={{ color: "black" }}>We are Open.</strong> Come and
+            buy the products you love.
+          </h1>
+        ) : (
+          <h1>
+            <strong style={{ color: "Grey" }}>Currently resting.</strong> Come
+            back to the store the next time.
+          </h1>
+        )}
       </div>
       <div className="helper" style={{ flexWrap: "nowrap" }}>
         <div>

@@ -30,6 +30,12 @@ function App() {
       </div>
 
       <MainHeader />
+      {}
+      <Subhead
+        word="The latest."
+        title="Take a look at what’s new, right now."
+        color="black"
+      />
       <div className="layout">
         {First.map((first) => (
           <DisplayDevice FirstObj={first} />

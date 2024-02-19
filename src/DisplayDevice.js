@@ -7,6 +7,7 @@ function DisplayDevice(props) {
           <img src={props.FirstObj.img} alt="effe" className="disp" />
         </div>{" "}
         <p style={{ marginTop: -48 }}>{props.FirstObj.name}</p>
+        <p style={{ marginTop: -10, fontSize: 12 }}>{props.FirstObj.stock}</p>
       </div>
     </div>
   );
